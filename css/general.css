@@ -1,0 +1,250 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    overflow: hidden;
+    background-image: url(../images/Wood.jpg);
+    background-size: 40rem;
+    width: 400px;
+    height: 200px;
+}
+
+.nav-top {
+    clear: both;
+}
+
+.nav-top ul {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+}
+
+.nav-top li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.nav-top a,
+.nav-top a,link
+.nav-top a,visited {
+    display: inline-block;
+    margin: 0;
+    padding: 1.5rem 10%;
+    color: white;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.selected {
+    background-color: #666;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    height: 12rem;
+    width: 12rem;
+}
+
+.logo {
+    width: 8rem;
+    height: auto;
+    float: left;
+    margin: 0;
+    padding: 1.5rem 5%;
+}
+
+.billboard {
+    position: absolute;
+    left: 0;
+    top: 12rem;
+    bottom: 0;
+    width: auto;
+}
+
+h1 {
+    margin: 0;
+    padding: 1.5rem 5%;
+    color: white;
+    font-family: 'Sonsie One', cursive;
+    position: absolute;
+    bottom: 24rem;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.graphictee1 {
+    margin: 0;
+    padding: 1.5rem 5%;
+    position: relative;
+    top: 15.5rem;
+    width: auto;
+}
+
+h3 {
+    margin: 0;
+    padding: 1.5rem 5%;
+    color: white;
+    font-family: 'Tienne', serif;
+    position: absolute;
+    bottom: 5rem;
+    float: center;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.blouse1 {
+    margin: 0;
+    padding: 1.5rem 5%;
+    position: relative;
+    top: 25.5rem;
+    width: auto;
+}
+
+h4 {
+    margin: 0;
+    padding: 1.5rem 5%;
+    color: white;
+    font-family: 'Tienne', serif;
+    position: absolute;
+    bottom: -20rem;
+    float: center;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.colouredtees {
+    margin: 0;
+    padding: 1.5rem 5%;
+    position: relative;
+    bottom: -40rem;
+    width: auto;
+}
+
+h5 {
+    margin: 0;
+    padding: 1.5rem 5%;
+    color: white;
+    font-family: 'Tienne', serif;
+    position: absolute;
+    bottom: -41rem;
+    float: center;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.billboardabout {
+    
+    position: absolute;
+    left: 0;
+    top: 10rem;
+    bottom: 0;
+    width: 410px;
+}
+
+.store {
+    margin: 0;
+    padding: 1.5rem 5%;
+    position: absolute;
+    bottom: 8.2rem;
+    right: 45%;
+    width: 240px;
+}
+
+.owner {
+    margin: 0;
+    padding: 1.5rem 5%;
+    position: absolute;
+    bottom: -3.5rem;
+    right: 0;
+}
+
+.about {
+    position: absolute;
+    bottom: 8rem;
+    left: 14rem;
+    width: 170px;
+    color: black;
+    font-family: 'Tienne', serif;
+}
+
+.owner-text {
+    position: absolute;
+    bottom: -9rem;
+    right: 14rem;
+    width: 170px;
+    color: black;
+    font-family: 'Tienne', serif;
+} 
+    
+footer {
+    background-color: lightblue;
+    overflow: hidden;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    bottom: -59rem
+}
+
+footer h6 {
+    margin: 1.5rem 5%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+footer p {
+    margin: 1.5rem 5%;
+    color: white;
+    font-size: 1rem;
+    width: 117px;
+    height: 100px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
