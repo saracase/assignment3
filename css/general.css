@@ -127,7 +127,7 @@ h2 {
     font-family: 'Tienne', serif;
     position: absolute;
     bottom: 5rem;
-    float: center;
+    float: left;
     overflow: hidden;
     background-color: rgba(64, 85, 101, .5);
 }
@@ -149,7 +149,7 @@ h3 {
     font-family: 'Tienne', serif;
     position: absolute;
     top: 33rem;
-    float: center;
+    float: left;
     overflow: hidden;
     background-color: rgba(64, 85, 101, .5);
 }
@@ -171,7 +171,7 @@ h4 {
     font-family: 'Tienne', serif;
     position: absolute;
     bottom: -41rem;
-    float: center;
+    float: left;
     overflow: hidden;
     background-color: rgba(64, 85, 101, .5);
 }
