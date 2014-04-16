@@ -38,7 +38,7 @@ body {
 header {
     overflow: hidden;
     position: absolute;
-    background-image: url(../images/Wood.jpg);
+    background-image: url(../images/wood.jpg);
     background-size: 100%;
     width: 100%;
 }
@@ -90,7 +90,7 @@ div {
 }
 
 .billboard {
-    background-image: url(../images/Billboard.jpg);
+    background-image: url(../images/billboard.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -111,7 +111,7 @@ h1 {
 }
 
 .graphictee1 {
-    background-image: url(../images/GraphicTee1.jpg);
+    background-image: url(../images/graphic-tee.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -133,7 +133,7 @@ h2 {
 }
 
 .blouse1 {
-    background-image: url(../images/Blouse2.jpg);
+    background-image: url(../images/blouse.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -155,7 +155,7 @@ h3 {
 }
 
 .colouredtees {
-    background-image: url(../images/ColouredTees.jpg);
+    background-image: url(../images/coloured-tees.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
