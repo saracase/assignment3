@@ -37,10 +37,10 @@ body {
 
 header {
     overflow: hidden;
+    position: absolute;
     background-image: url(../images/Wood.jpg);
-    background-size: 40rem;
-    width: 400px;
-    height: 200px;
+    background-size: 100%;
+    width: 100%;
 }
 
 .nav-top {
@@ -83,19 +83,21 @@ div {
 }
 
 .logo {
-    width: 8.5rem;
+    width: 7rem;
     height: auto;
     float: left;
-    margin: 0;
-    padding: 1.5rem 5%;
+    margin: .25rem 1%;
 }
 
 .billboard {
-    position: absolute;
-    left: 0;
+    background-image: url(../images/Billboard.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
     top: 12rem;
-    bottom: 0;
-    width: auto;
+    height: 100%;
+    width: 100%;
+
 }
 
 h1 {
@@ -104,20 +106,21 @@ h1 {
     color: white;
     font-family: 'Sonsie One', cursive;
     position: absolute;
-    bottom: 24rem;
     overflow: hidden;
     background-color: rgba(255, 255, 255, .3);
 }
 
 .graphictee1 {
-    margin: 0;
-    padding: 1.5rem 5%;
-    position: relative;
-    top: 15.5rem;
-    width: auto;
+    background-image: url(../images/GraphicTee1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    top: 29.5rem;
+    height: 100%;
+    width: 100%;
 }
 
-h3 {
+h2 {
     margin: 0;
     padding: 1.5rem 5%;
     color: white;
@@ -130,34 +133,38 @@ h3 {
 }
 
 .blouse1 {
-    margin: 0;
-    padding: 1.5rem 5%;
-    position: relative;
-    top: 25.5rem;
-    width: auto;
+    background-image: url(../images/Blouse2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    top: 54rem;
+    height: 100%;
+    width: 100%;
 }
 
-h4 {
+h3 {
     margin: 0;
     padding: 1.5rem 5%;
     color: white;
     font-family: 'Tienne', serif;
     position: absolute;
-    bottom: -20rem;
+    top: 33rem;
     float: center;
     overflow: hidden;
     background-color: rgba(64, 85, 101, .5);
 }
 
 .colouredtees {
-    margin: 0;
-    padding: 1.5rem 5%;
-    position: relative;
-    bottom: -40rem;
-    width: auto;
+    background-image: url(../images/ColouredTees.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    top: 83.5rem;
+    height: 100%;
+    width: 100%;
 }
 
-h5 {
+h4 {
     margin: 0;
     padding: 1.5rem 5%;
     color: white;
@@ -217,9 +224,9 @@ footer {
     background-color: rgba(64, 85, 101, .99);
     overflow: hidden;
     position: absolute;
-    width: 400px;
-    height: 200px;
-    bottom: -59rem
+    width: 100%;
+    height: auto;
+    top: 100rem
 }
 
 footer h6 {
