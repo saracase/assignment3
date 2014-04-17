@@ -188,16 +188,16 @@ h4 {
 
 .about {
     position: absolute;
-    bottom: 8rem;
-    left: 14rem;
-    width: 170px;
+    top: 48rem;
+    right: 15rem;
+    width: 455px;
     color: black;
     font-family: 'Tienne', serif;
 }
 
 .owner-text {
     position: absolute;
-    bottom: -9rem;
+    top: 81.5rem;
     right: 14rem;
     width: 170px;
     color: black;
