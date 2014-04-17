@@ -156,36 +156,35 @@ h4 {
     color: white;
     font-family: 'Tienne', serif;
     position: absolute;
-    bottom: -41rem;
-    float: left;
+    top: 63rem;
+    float: right center;
     overflow: hidden;
     background-color: rgba(64, 85, 101, .5);
 }
 
 .billboardabout {
-    
-    position: absolute;
-    left: 0;
-    top: 10rem;
-    bottom: 0;
-    width: 410px;
+    background-image: url(../images/billboard-about.jpg);
+    overflow: hidden;
+    background-color: black;
+    background-position: center bottom;
+    background-size: 75rem;
+    padding: 1.5rem 5%;
 }
 
 .store {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 75rem;
     margin: 0;
     padding: 1.5rem 5%;
-    position: absolute;
-    bottom: 8.2rem;
-    right: 45%;
-    width: 240px;
 }
 
 .owner {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 75rem;
     margin: 0;
     padding: 1.5rem 5%;
-    position: absolute;
-    bottom: -3.5rem;
-    right: 0;
 }
 
 .about {
@@ -214,7 +213,7 @@ footer {
     top: 100rem
 }
 
-footer h6 {
+footer h5 {
     margin: 1.5rem 5%;
     color: white;
     font-size: 1.5rem;
