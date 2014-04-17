@@ -184,14 +184,14 @@ h4 {
     background-size: 75rem;
     margin: 0;
     padding: 1.5rem 5%;
+    top: 55rem;
 }
 
-.p {
+.about {
     margin: 0rem;
     padding: 1.5rem 5%;
     position: absolute;
     top: 48rem;
-    width: 160px;
     color: black;
     font-family: 'Tienne', serif;
 }
@@ -217,6 +217,10 @@ footer h5 {
     margin: 1.5rem 5%;
     color: white;
     font-size: 1.5rem;
+}
+
+footer img {
+    height: 3.5rem;
 }
 
 footer p {
