@@ -85,7 +85,6 @@ header {
 .billboard {
     background-image: url(../images/billboard.jpg);
     overflow: hidden;
-    background-color: black;
     background-position: bottom;
     background-size: 100%;
     padding: 15rem 5%;
