@@ -38,7 +38,7 @@ body {
 header {
     overflow: hidden;
     position: absolute;
-    background-image: url(../images2/wood.jpg);
+    background-image: url(../images/wood.jpg);
     background-size: 100%;
     width: 100%;
 }
@@ -83,7 +83,7 @@ header {
 }
 
 .billboard {
-    background-image: url(../images2/billboard.jpg);
+    background-image: url(../images/billboard.jpg);
     overflow: hidden;
     background-position: bottom;
     background-size: 100%;
@@ -162,7 +162,7 @@ h4 {
 }
 
 .billboardabout {
-    background-image: url(../images2/billboard-about.jpg);
+    background-image: url(../images/billboard-about.jpg);
     overflow: hidden;
     background-color: black;
     background-position: center bottom;
