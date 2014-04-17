@@ -87,8 +87,8 @@ header {
     overflow: hidden;
     background-color: black;
     background-position: center bottom;
-    background-size: 75rem;
-    padding: 1.5rem 5%;
+    background-size: 100%;
+    padding: 15rem 5%;
 }
 
 h1 {
