@@ -86,6 +86,8 @@ header {
     background-image: url(../images/billboard.jpg);
     overflow: hidden;
     background-color: black;
+    background-position: center bottom;
+    background-size: 75rem;
     padding: 1.5rem 5%;
 }
 
