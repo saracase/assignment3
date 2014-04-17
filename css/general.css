@@ -164,7 +164,6 @@ h4 {
 .billboardabout {
     background-image: url(../images/billboard-about.jpg);
     overflow: hidden;
-    background-color: black;
     background-position: center bottom;
     background-size: 75rem;
     padding: 15rem 5%;
@@ -204,6 +203,14 @@ h4 {
     color: black;
     font-family: 'Tienne', serif;
 } 
+
+.billboardproducts {
+    background-image: url(../images/beach-products.jpg);
+    overflow: hidden;
+    background-position: center bottom;
+    background-size: 100%;
+    padding: 15rem 5%;
+}
     
 footer {
     background-color: rgba(64, 85, 101, .99);
