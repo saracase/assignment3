@@ -86,7 +86,7 @@ header {
     background-image: url(../images/billboard.jpg);
     overflow: hidden;
     background-color: black;
-    background-position: center bottom;
+    background-position: bottom;
     background-size: 100%;
     padding: 15rem 5%;
 }
@@ -116,7 +116,7 @@ h2 {
     color: white;
     font-family: 'Tienne', serif;
     position: absolute;
-    bottom: 5rem;
+    bottom: 2rem;
     float: left;
     overflow: hidden;
     background-color: rgba(64, 85, 101, .5);
@@ -136,7 +136,7 @@ h3 {
     color: white;
     font-family: 'Tienne', serif;
     position: absolute;
-    top: 33rem;
+    top: 63rem;
     float: left;
     overflow: hidden;
     background-color: rgba(64, 85, 101, .5);
@@ -156,7 +156,7 @@ h4 {
     color: white;
     font-family: 'Tienne', serif;
     position: absolute;
-    top: 63rem;
+    top: 91rem;
     float: right center;
     overflow: hidden;
     background-color: rgba(64, 85, 101, .5);
