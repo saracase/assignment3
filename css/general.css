@@ -75,13 +75,6 @@ header {
     background-color: #666;
 }
 
-div {
-    margin: 0;
-    padding: 0;
-    height: 12rem;
-    width: 12rem;
-}
-
 .logo {
     width: 7rem;
     height: auto;
@@ -91,14 +84,11 @@ div {
 
 .billboard {
     background-image: url(../images/billboard.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: auto;
-    bottom: 35rem;
-    height: 100%;
-    width: 100%;
     overflow: hidden;
     background-color: black;
+    background-position: center bottom;
+    background-size: 75rem;
+    padding: 1.5rem 5%;
 }
 
 h1 {
@@ -112,14 +102,12 @@ h1 {
     bottom: 22rem;
 }
 
-.graphictee1 {
-    background-image: url(../images/graphic-tee.jpg);
+.graphictee {
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 100%;
-    top: 29.5rem;
-    height: 100%;
-    width: 100%;
+    background-size: 75rem;
+    margin: 0;
+    padding: 1.5rem 5%;
 }
 
 h2 {
@@ -134,14 +122,12 @@ h2 {
     background-color: rgba(64, 85, 101, .5);
 }
 
-.blouse1 {
-    background-image: url(../images/blouse.jpg);
+.blouse {
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 100%;
-    top: 54rem;
-    height: 100%;
-    width: 100%;
+    background-size: 75rem;
+    margin: 0;
+    padding: 1.5rem 5%;
 }
 
 h3 {
@@ -157,13 +143,11 @@ h3 {
 }
 
 .colouredtees {
-    background-image: url(../images/coloured-tees.jpg);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 100%;
-    top: 83.5rem;
-    height: 100%;
-    width: 100%;
+    background-size: 75rem;
+    margin: 0;
+    padding: 1.5rem 5%;
 }
 
 h4 {
@@ -225,7 +209,6 @@ h4 {
 footer {
     background-color: rgba(64, 85, 101, .99);
     overflow: hidden;
-    position: absolute;
     width: 100%;
     height: auto;
     top: 100rem
