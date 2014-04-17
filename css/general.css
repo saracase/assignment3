@@ -186,11 +186,12 @@ h4 {
     padding: 1.5rem 5%;
 }
 
-.about {
+.p {
+    margin: 0rem;
+    padding: 1.5rem 5%;
     position: absolute;
     top: 48rem;
-    right: 15rem;
-    width: 455px;
+    width: 160px;
     color: black;
     font-family: 'Tienne', serif;
 }
@@ -199,7 +200,7 @@ h4 {
     position: absolute;
     top: 81.5rem;
     right: 14rem;
-    width: 170px;
+    width: 455px;
     color: black;
     font-family: 'Tienne', serif;
 } 
