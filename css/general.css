@@ -27,11 +27,6 @@ img {
     display: block;
 }
 
-img {
-	width: 100%;
-    display: block;
-}
-
 body {
     margin: 0;
 }
@@ -42,6 +37,12 @@ header {
     background-image: url(../images/wood.jpg);
     background-size: 100%;
     width: 100%;
+}
+
+article {
+    margin: 0;
+    padding: 5%;
+    overflow: hidden;
 }
 
 .nav-top {
@@ -86,9 +87,32 @@ header {
 .billboard {
     background-image: url(../images/billboard.jpg);
     overflow: hidden;
+    background-repeat: no-repeat;
     background-position: bottom;
     background-size: 35rem;
+    background-color: rgba(64, 85, 101, .99);
     padding: 15rem 5%;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: white;
+    background-color:rgba(255, 255, 255, .5);
+    text-transform: lowercase;
+    letter-spacing: -.1rem;
+    margin: 6rem 0;
+    padding: 1.25rem 5%;
+    text-shadow: .15rem .15rem .05rem rgba(0, 0, 0, .3);
+}    
+
+h2 {
+    font-weight: normal;
+    font-size: 2rem;
+    color: black;
+    text-transform: lowercase;
+    letter-spacing: -.1rem;
+    font-family: 'Tienne', serif; 
 }
 
 .bucket3 {
@@ -211,7 +235,48 @@ h1 {
 .ten {
     background-image: url(../images/sale-tee1.jpg);
 }
-    
+ 
+.socialmedia {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.socialmedia li {
+    float: left;
+    width: 10%;
+    margin: 0 1.5rem 0;
+    padding: 0;
+}
+
+.socialmedia li:nth-child(even) {
+    margin: 0;
+}
+
+.socialmedia a,
+.socialmedia a:link,
+.socialmedia a:visited {
+    display: block;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 100% 0 0;
+}
+
+.eleven {
+    background-image: url(../images/facebook.svg);  
+}
+
+.twelve {
+    background-image: url(../images/twitter.svg);
+}
+
+.thirteen {
+    background-image: url(../images/instagram.svg);
+}
+
 footer {
     background-color: rgba(64, 85, 101, .99);
     overflow: hidden;
@@ -220,7 +285,7 @@ footer {
     top: 100rem
 }
 
-footer h5 {
+footer h3 {
     margin: 1.5rem 5%;
     color: white;
     font-size: 1.5rem;
@@ -237,16 +302,3 @@ footer p {
     width: 117px;
     height: 100px
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
