@@ -19,6 +19,7 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
+    font-family: 'Tienne', serif;
 }
 
 img {
@@ -38,7 +39,7 @@ body {
 header {
     overflow: hidden;
     position: absolute;
-    background-image: url(../images2/wood.jpg);
+    background-image: url(../images/wood.jpg);
     background-size: 100%;
     width: 100%;
 }
@@ -83,11 +84,33 @@ header {
 }
 
 .billboard {
-    background-image: url(../images2/billboard.jpg);
+    background-image: url(../images/billboard.jpg);
     overflow: hidden;
     background-position: bottom;
-    background-size: 100%;
+    background-size: 35rem;
     padding: 15rem 5%;
+}
+
+.bucket3 {
+    overflow: hidden;
+    margin: 0 0 1.5rem;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.bucket3 img {
+    float: left;
+    width: 45%; 
+    margin: 0 5% 0 0;
+    padding: 0;
+}
+
+.bucket3 figcaption {
+    float: right;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 
 h1 {
@@ -101,115 +124,91 @@ h1 {
     bottom: 22rem;
 }
 
-.graphictee {
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 75rem;
-    margin: 0;
-    padding: 1.5rem 5%;
-}
-
-h2 {
-    margin: 0;
-    padding: 1.5rem 5%;
-    color: white;
-    font-family: 'Tienne', serif;
-    position: absolute;
-    bottom: 2rem;
-    float: left;
-    overflow: hidden;
-    background-color: rgba(64, 85, 101, .5);
-}
-
-.blouse {
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 75rem;
-    margin: 0;
-    padding: 1.5rem 5%;
-}
-
-h3 {
-    margin: 0;
-    padding: 1.5rem 5%;
-    color: white;
-    font-family: 'Tienne', serif;
-    position: absolute;
-    top: 63rem;
-    float: left;
-    overflow: hidden;
-    background-color: rgba(64, 85, 101, .5);
-}
-
-.colouredtees {
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 75rem;
-    margin: 0;
-    padding: 1.5rem 5%;
-}
-
-h4 {
-    margin: 0;
-    padding: 1.5rem 5%;
-    color: white;
-    font-family: 'Tienne', serif;
-    position: absolute;
-    top: 91rem;
-    float: right center;
-    overflow: hidden;
-    background-color: rgba(64, 85, 101, .5);
-}
-
 .billboardabout {
-    background-image: url(../images2/billboard-about.jpg);
+    background-image: url(../images/billboard-about.jpg);
     overflow: hidden;
     background-position: center bottom;
     background-size: 75rem;
     padding: 15rem 5%;
 }
-
-.store {
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 75rem;
-    margin: 0;
-    padding: 1.5rem 5%;
-}
-
-.owner {
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 75rem;
-    margin: 0;
-    padding: 1.5rem 5%;
-    top: 65rem;
-}
-
-.about {
-    margin: 0rem;
-    padding: 1.5rem 5%;
-    position: absolute;
-    top: 48rem;
-    color: black;
-    font-family: 'Tienne', serif;
-}
-
-.owner-text {
-    position: absolute;
-    top: 81.5rem;
-    right: 14rem;
-    width: 455px;
-    color: black;
-    font-family: 'Tienne', serif;
-} 
 
 .billboardproducts {
-    background-image: url(../images2/beach-products.jpg);
+    background-image: url(../images/beach-products.jpg);
     overflow: hidden;
     background-position: center bottom;
-    background-size: 100%;
+    background-size: 35rem;
     padding: 15rem 5%;
+}
+
+.bucket2 {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    background-color: lightblue;
+}
+
+.bucket2 li {
+    float: left;
+    width: 45%;
+    margin: 0 10% 1.5rem 0;
+    padding: 0;
+}
+
+.bucket2 li:nth-child(even) {
+    margin: 0;
+}
+
+.bucket2 a,
+.bucket2 a:link,
+.bucket2 a:visited {
+    display: block;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color:
+    margin: 0;
+    padding: 100% 0 0;
+}
+
+.one {
+    background-image: url(../images/graphic-tee1.jpg);  
+}
+
+.two {
+    background-image: url(../images/graphic-tee2.jpg);
+}
+
+.three {
+    background-image: url(../images/graphic-tee3.jpg);
+}
+
+.four {
+    background-image: url(../images/graphic-tee4.jpg);
+}
+
+.five {
+    background-image: url(../images/blouse1.jpg);  
+}
+
+.six {
+    background-image: url(../images/long-sleeve.jpg);
+}
+
+.seven {
+    background-image: url(../images/blouse3.jpg);  
+}
+
+.eight {
+    background-image: url(../images/blouse4.jpg);
+}
+
+.nine {
+    background-image: url(../images/sale-tee.jpg);  
+}
+
+.ten {
+    background-image: url(../images/sale-tee1.jpg);
 }
     
 footer {
