@@ -87,10 +87,8 @@ article {
 .billboard {
     background-image: url(../images/billboard.jpg);
     overflow: hidden;
-    background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center bottom;
     background-size: 35rem;
-    background-color: rgba(64, 85, 101, .99);
     padding: 15rem 5%;
 }
 
@@ -109,10 +107,11 @@ h1 {
 h2 {
     font-weight: normal;
     font-size: 2rem;
-    color: black;
+    color: white;
     text-transform: lowercase;
     letter-spacing: -.1rem;
-    font-family: 'Tienne', serif; 
+    font-family: 'Tienne', serif;
+    background-color: lightblue;
 }
 
 .bucket3 {
@@ -157,7 +156,7 @@ h1 {
 }
 
 .billboardproducts {
-    background-image: url(../images/beach-products.jpg);
+    background-image: url(../images/billboard-products.jpg);
     overflow: hidden;
     background-position: center bottom;
     background-size: 35rem;
@@ -169,7 +168,6 @@ h1 {
     padding: 0;
     overflow: hidden;
     list-style: none;
-    background-color: lightblue;
 }
 
 .bucket2 li {
@@ -221,11 +219,11 @@ h1 {
 }
 
 .seven {
-    background-image: url(../images/blouse3.jpg);  
+    background-image: url(../images/blouse2.jpg);  
 }
 
 .eight {
-    background-image: url(../images/blouse4.jpg);
+    background-image: url(../images/blouse3.jpg);
 }
 
 .nine {
