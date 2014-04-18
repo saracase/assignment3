@@ -300,3 +300,19 @@ footer p {
     width: 115px;
     height: 30px
 }
+
+.nav-bottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.nav-bottom a,
+.nav-bottom a:link,
+.nav-bottom a:visited {
+    color: white;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
