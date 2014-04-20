@@ -172,14 +172,9 @@ h1 {
     padding: 0;
 }
 
-.bucket1 a:nth-child(even) {
+.bucket1 figure:nth-child(even) }
     margin: 0;     
 }
-
-.bucket1 figcaption {
-}
-
-
 
 .five {
     background-image: url(../images/blouse1.jpg);  
