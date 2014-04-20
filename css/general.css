@@ -114,21 +114,21 @@ h2 {
     background-color: lightblue;
 }
 
-.bucket3 {
+.bucket1 {
     overflow: hidden;
     margin: 0 0 1.5rem;
     padding: 0;
     background-color: lightblue;
 }
 
-.bucket3 img {
+.bucket1 img {
     float: left;
     width: 45%;
     margin: 0 5% 0 0;
     padding: 0;
 }
 
-.bucket3 figcaption {
+.bucket1 figcaption {
     float: right;
     width: 50%;
     margin: 0;
@@ -163,43 +163,19 @@ h1 {
     padding: 15rem 5%;
 }
 
-.bucket1 { 
+.bucket2 { 
     overflow:  hidden;
 }
 
-.bucket1 figure {
+.bucket2 figure {
 float: left;
 width: 45%;
 margin: 0 10% 0 0;
 padding: 0;
 }
 
-.bucket1 figure:nth-child(even) {
+.bucket2 figure:nth-child(even) {
     margin: 0;     
-}
-
-.five {
-    background-image: url(../images/blouse1.jpg);  
-}
-
-.six {
-    background-image: url(../images/long-sleeve.jpg);
-}
-
-.seven {
-    background-image: url(../images/blouse2.jpg);  
-}
-
-.eight {
-    background-image: url(../images/blouse3.jpg);
-}
-
-.nine {
-    background-image: url(../images/sale-tee.jpg);  
-}
-
-.ten {
-    background-image: url(../images/sale-tee1.jpg);
 }
  
 .socialmedia {
@@ -232,15 +208,15 @@ padding: 0;
     padding: 100% 0 0;
 }
 
-.eleven {
+.one {
     background-image: url(../images/facebook.svg);  
 }
 
-.twelve {
+.two {
     background-image: url(../images/twitter.svg);
 }
 
-.thirteen {
+.three {
     background-image: url(../images/instagram.svg);
 }
 
