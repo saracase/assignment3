@@ -267,7 +267,8 @@ footer p {
     color: white;
     font-size: 1rem;
     width: 115px;
-    height: 30px
+    height: 30px;
+    text-decoration: none;
 }
 
 .nav-bottom ul {
